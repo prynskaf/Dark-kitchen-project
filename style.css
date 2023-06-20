@@ -16,6 +16,12 @@ body {
 
 /* zuzana */
 
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .btn {
     background-color: rgb(186, 248, 221);
     width: 15vh;
@@ -70,22 +76,13 @@ h1{
     justify-content:center;
   }
 
-  
 
+/*FOOD*/
 
-
-
-
-
-
-
-
-
-/* leslie */
 .gallery {
   width: 300px;
   margin: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #0b0a0a;
 
   
 }
@@ -95,15 +92,57 @@ h1{
   width: 300px;
   }
 
-  .FoodGallery{
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+.FoodGallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*DRINKS*/
+
+.drinkgallery {
+  width: 300px;
+  
+  margin: 15px;
+  border: 1px solid #060505;
+}
+
+.DrinksSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
 
+  
+
+.drinkgallery img{
+  height: 300px;
+  
+}
+  
+
+
+/*DESSERTS*/
+
+.dessertgallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+}
+.DessertSection img{
+  
+  
+  height: 300px;
+}
+  
+.DessertSection{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
 
 
