@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(201, 201, 199);
+    padding: 25px;
+}
+
+
+/* zuzana */
+
+.btn {
+    background-color: rgb(186, 248, 221);
+    width: 15vh;
+    height: 15vh;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+
+}
+.btn:hover {
+    background-color: rgb(150, 232, 247);
+  }
+  #buttons{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+  }
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 6px 3px #ff0000;
+    
+}
+
+ 
+  .searchbar {
+   width: 7vh;
+   height: 7vh;
+   border: none;
+   background-color:rgb(253, 254, 210) ;
+   
+  }
+  #searchbar{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+  }
+  .fa-solid {
+    font-size: xx-large;
+  }
+
+  .logo img{
+    width: 70vh;
+  }
+
+  .logo{
+    display:flex;
+    justify-content:center;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+/* leslie */
+.gallery {
+  width: 300px;
+  margin: 15px;
+  border: 1px solid #ccc;
+
+  
+}
+.FoodGallery img{
+  
+  height: 300px;
+  width: 300px;
+  }
+
+  .FoodGallery{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+
+
+
+
