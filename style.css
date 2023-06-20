@@ -150,5 +150,22 @@ h1{
 }
 
 
+/* leslie */
+
+.container .gallery:hover img{
+  transform: scale(1.2);
+}
+
+.container .drinkgallery:hover img{
+  transform: scale(1.2);
+}
+
+.container .dessertgallery:hover img{
+  transform: scale(1.2);
+}
+
+
+
+
 
 
