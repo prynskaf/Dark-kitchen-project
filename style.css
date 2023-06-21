@@ -22,6 +22,9 @@ body {
   flex-direction: column;
 
 }
+b{
+  font-size: larger;
+}
 
 .btn {
     background-color: rgb(186, 248, 221);
@@ -45,27 +48,47 @@ body {
     padding-bottom: 50px;
   }
 
-  #cart{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding-bottom: 50px;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-  }
-   .cartIcon{
-    width: 65px;
+  #cart {
+    margin-top: 20px;
+    float: right;
+    margin-right: -60px;
+    width: 200px;
+    position: fixed;
+    padding: 20px  40px;
+    cursor: pointer;
+    z-index: 1;
+    right: 90px;
+    color: black;
+    background-color:white;
+    border: 3px solid yellow;
+    border-radius: 30px;
+
+    background-color: #ccc;
     
   }
-  #totalAmount{
-    font-size: larger;
+        
+  .cartItems {
+    background-color: yellow;
+    width: 200px;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+
+  h2 .bi{
+    font-size: 32px;
     font-weight: bold;
   }
+    
+  
+ 
   .checkout{
     width: 100px;
     height: 30px;
     background-color: rgb(186, 248, 221);
-    border: 3px solid rgb(9, 9, 9);
+    border: 2px solid rgb(9, 9, 9);
     font-size: larger;
     border-radius: 10px; 
     cursor: pointer;
@@ -112,6 +135,7 @@ h2 .bi{
   border: 3px solid #0b0a0a;
   border-radius: 5px;
   background-color: white;
+  text-align: center;
 
   
 }
@@ -136,6 +160,7 @@ h2 .bi{
   margin: 15px;
   border: 3px solid #060505;
   border-radius: 5px;
+  text-align: center;
 }
 
 .DrinksSection{
@@ -161,6 +186,8 @@ h2 .bi{
   border: 3px solid #0a0909;
   border-radius: 5px;
   background-color: white;
+  text-align: center;
+  
 }
 .DessertSection img{
   
@@ -214,5 +241,6 @@ h2 .bi{
 }
 /* 
 this  */
+
 
 
