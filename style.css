@@ -162,13 +162,14 @@ h1{
   transform: scale(1.2);
 }
 
-.container .drinkgallery:hover img{
+
+ .container .drinkgallery:hover img{
   transform: scale(1.2);
 }
 
 .container .dessertgallery:hover img{
   transform: scale(1.2);
-}
+} 
 
 
 
