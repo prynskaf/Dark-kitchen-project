@@ -9,7 +9,7 @@ body {
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("background_img.jpg") ;
-    /* background-image: linear-gradient(to right, rgb(204, 248, 181) , rgb(251, 251, 181)); */
+   
     padding: 25px;
     
 }
@@ -43,6 +43,36 @@ body {
     justify-content:center;
     flex-direction: row;
     padding-bottom: 50px;
+  }
+
+  #cart{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 50px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+   .cartIcon{
+    width: 65px;
+    
+  }
+  #totalAmount{
+    font-size: larger;
+    font-weight: bold;
+  }
+  .checkout{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(186, 248, 221);
+    border: 3px solid rgb(9, 9, 9);
+    font-size: larger;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  .checkout:hover {
+    background-color: rgb(150, 232, 247);
   }
 
 h1{
@@ -157,6 +187,7 @@ h2 .bi{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-left: 5px;
 
 }
 
