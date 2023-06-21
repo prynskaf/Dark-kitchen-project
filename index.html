@@ -17,9 +17,9 @@
             <div id="cart">
                 <h2 class="cartIcon"><i class="bi bi-cart4"></i></h2>
                 <ol id="cartItems"></ol>
-                <p  id="totalAmount">Total: €0.00</p>
+                <p id="totalAmount">Total: 0.00€</p>
                 <button class="checkout">checkout</button>
-              </div>
+            </div>
 
             <h1>Hungry boy's</h1>
 
@@ -29,9 +29,9 @@
 
 
             <div id="buttons">
-                <button class="btn"><i class="fa-solid fa-utensils"></i> Food</button>
-                <button class="btn"><i class="fa-solid fa-whiskey-glass"></i> Drinks</button>
-                <button class="btn"><i class="fa-solid fa-ice-cream"></i> Deserts</button>
+                <button class="btn categoryBtn" data-category="Food"><i class="fa-solid fa-utensils"></i> Food</button>
+                <button class="btn categoryBtn" data-category="Drinks"><i class="fa-solid fa-whiskey-glass"></i> Drinks</button>
+                <button class="btn categoryBtn" data-category="Deserts"><i class="fa-solid fa-ice-cream"></i> Deserts</button>
             </div>
 
         </header>
@@ -42,7 +42,7 @@
             <div class="FoodGallery">
 
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pizza-mozzarella.png">
                     <div class="description"> Veri Italiani - Mozzarella Pizza </div>
                     <br>
@@ -50,7 +50,7 @@
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pizza-hawaiian.png">
                     <div class="description"> Ultimate Hawaiiann Supreme - pinapple, olives, bell pepper </div>
                     <br>
@@ -58,7 +58,7 @@
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pizza-greens.jpg">
                     <div class="description"> Ultimate Parma - rucola, parma ham , sundried tomatoes </div>
                     <br>
@@ -67,7 +67,7 @@
                 </div>
 
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pizza-four-cheese.png">
                     <div class="description"> Cheesy Lovers - mozzarella, parmesan, gorgonzola, fontina</div>
                     <br>
@@ -75,7 +75,7 @@
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pizza-chicken.jpg">
                     <div class="description"> Chicken Flyer-Saucer - chicken breast, tomato sauce, mozzarella cheese
                     </div>
@@ -84,48 +84,48 @@
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pasta-Fettuccine-Alfredo.png">
                     <div class="description"> Fettuccine-Alfredo - cream, cheese, tomato sauce, or olive oil
                     </div>
                     <br>
-                    <p><b>€12 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>12€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/pasta-spaghetti.png">
                     <div class="description"> Spaghetti Bolognese - ground beef, tomatoes, onions, garlic,
                         and herbs
                     </div>
                     <br>
-                    <p><b>€11 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>11€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/burger-bbq-bacon.jpg">
                     <div class="description">BBQ Bacon Burger - bacon, bbq sauce, cheddar cheese
                     </div>
                     <br>
-                    <p><b>€11 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>11€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/burger-blue-cheese.png">
                     <div class="description"> Blue Cheese Burger - blue cheese, lettuce, tomatoes
                     </div>
                     <br>
-                    <p><b>€11 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>11€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="gallery">
+                <div class="gallery" data-category="Food">
                     <img src="meal/burger-original.jpg">
                     <div class="description"> Original Burger - beef, lettuce, tomatoes </div>
                     <br>
-                    <p><b>€10 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>10€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
 
                 </div>
@@ -133,122 +133,122 @@
 
 
 
-            <div class="DrinksSection">
+            <div class="DrinksSection"  data-category="Drinks">
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/mineral_water.jpg">
                     <div class="description"> Water</div>
                     <br>
-                    <p><b>€3 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/sprite.png">
                     <div class="description"> Sprite</div>
                     <br>
-                    <p><b>€3 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/fanta.png">
                     <div class="description"> Fanta</div>
                     <br>
-                    <p><b>€3 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/coca-cola.png">
                     <div class="description"> Coca-Cola</div>
                     <br>
-                    <p><b>€3 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/beer.jpg">
                     <div class="description"> Beer</div>
                     <br>
-                    <p><b>€4 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>4€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/white_wine.jpg">
                     <div class="description"> White Wine</div>
                     <br>
-                    <p><b>€5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/rose_wine.jpg">
                     <div class="description"> Rose Wine</div>
                     <br>
-                    <p><b>€5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/red_wine.jpg">
                     <div class="description"> Red Wine</div>
                     <br>
-                    <p><b>€5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/tea.jpg">
                     <div class="description"> Tea</div>
                     <br>
-                    <p><b>€3 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/capuccino.jpg">
                     <div class="description"> Cappuccino</div>
                     <br>
-                    <p><b>€3.5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3.5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
 
-                <div class="drinkgallery">
+                <div class="drinkgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_drinks/espresso.jpg">
                     <div class="description"> Espresso</div>
                     <br>
-                    <p><b>€3.5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3.5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
             </div>
 
-            <div class="DessertSection">
-                <div class="dessertgallery">
+            <div class="DessertSection"  data-category="Drinks">
+                <div class="dessertgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_deserts/fruit_coctail.jpg">
                     <div class="description"> Fruit Coctail</div>
                     <br>
-                    <p><b>€3.5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3.5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
 
                 </div>
 
-                <div class="dessertgallery">
+                <div class="dessertgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_deserts/ice-cream.jpg">
                     <div class="description"> Ice-Cream</div>
                     <br>
-                    <p><b>€4 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>4€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
-                <div class="dessertgallery">
+                <div class="dessertgallery"  data-category="Drinks">
                     <img src="darkKitchen/images_deserts/Crepes.jpg">
                     <div class="description"> Crepes</div>
                     <br>
-                    <p><b>€3.5 </b><button class="addToCartBtn">Add to Cart</button></p>
+                    <p><b>3.5€ </b><button class="addToCartBtn">Add to Cart</button></p>
                     <br>
                 </div>
 
@@ -257,14 +257,26 @@
         </div>
 
 
+<br>
+        <footer>
+            <div class="contact-section">
+                <h3>Contact Us</h3>
+                <p>123 Awesome Street, 100, BRUSSELS</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: hungryboys@home.com</p>
+            </div>
 
-
+            <div class="copyright">
+                <p>&copy; 2023 Dark Kitchen Project Zuzana Prince Leslie. All rights reserved.</p>
+            </div>
+        </footer>
 
     </main>
-    
-    <aside></aside>
 
-    
+  
+
+
+
     <script src="script.js"></script>
 </body>
 
