@@ -158,6 +158,23 @@ h1{
   transform: scale(1.2);
 } 
 
+.addToCartBtn{
+  width: 80px;
+  height: 25px;
+  background-color: rgb(186, 248, 221);
+  border: 2px solid grey;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+
+.addToCartBtn:hover {
+    background-color: rgb(150, 232, 247);
+  }
 
 
 
