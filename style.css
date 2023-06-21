@@ -51,6 +51,10 @@ h1{
     text-shadow: 6px 6px 8px #ff0000, 10px 10px 8px rgb(254, 174, 1), 15px 15px 8px yellow;
     
 }
+h2 .bi{
+  font-size: 32px;
+  font-weight: bold;
+}
 
 
   .logo img{
@@ -160,7 +164,7 @@ h1{
     background-color: rgb(150, 232, 247);
   }
 
-  
+
 
 /* leslie */
 
