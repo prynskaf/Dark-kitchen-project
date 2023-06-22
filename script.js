@@ -9,23 +9,28 @@ document.addEventListener('DOMContentLoaded', function() {
   
     let cart = [];
   
-    // Add event listeners to category buttons
-    categoryButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        const category = button.getAttribute('data-category');
-  
-        // Hide all gallery items
-        galleryItems.forEach(function(item) {
-          item.style.display = 'none';
-        });
-  
-        // Show gallery items of the selected category
-        const categoryItems = document.querySelectorAll('.gallery[data-category="' + category + '"]');
-        categoryItems.forEach(function(item) {
-          item.style.display = 'block';
-        });
-      });
-    });
+    // Get the buttons
+const foodBtn = document.querySelector('.btn[data-category="Food"]');
+const drinksBtn = document.querySelector('.btn[data-category="Drinks"]');
+const dessertsBtn = document.querySelector('.btn[data-category="Desserts"]');
+
+// Get the corresponding sections
+const foodSection = document.querySelector('.FoodGallery');
+const drinksSection = document.querySelector('.DrinksSection');
+const dessertsSection = document.querySelector('.DessertSection');
+
+// Add click event listeners to the buttons
+foodBtn.addEventListener('click', () => {
+  foodSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+drinksBtn.addEventListener('click', () => {
+  drinksSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+dessertsBtn.addEventListener('click', () => {
+  dessertsSection.scrollIntoView({ behavior: 'smooth' });
+});
   
     // Add event listeners to "Add to Cart" buttons
     const addToCartButtons = document.querySelectorAll('.addToCartBtn');
@@ -86,4 +91,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-  
+  // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
